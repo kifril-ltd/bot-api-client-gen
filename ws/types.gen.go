@@ -171,7 +171,7 @@ type ChannelSchema struct {
 	TransportId int64 `json:"transport_id"`
 
 	// Description: Channel type
-	Type ChannelTypeSchema `json:"type" validate:"oneof='telegram' 'fbmessenger' 'viber' 'whatsapp' 'skype' 'vk' 'instagram' 'consultant' 'yandex_chat' 'odnoklassniki' 'ozon' 'wildberries' 'yandex_market' 'mega_market' 'avito' 'drom' 'youla' 'custom'"`
+	Type ChannelTypeSchema `json:"type" validate:"oneof='telegram' 'fbmessenger' 'viber' 'whatsapp' 'skype' 'vk' 'instagram' 'consultant' 'yandex_chat' 'odnoklassniki' 'max' 'ozon' 'wildberries' 'yandex_market' 'mega_market' 'avito' 'drom' 'youla' 'custom'"`
 }
 
 // ChannelFeatureSchema is a schema from the AsyncAPI specification required in messages

@@ -20,7 +20,7 @@ A Go client library for interacting with the Message Gateway Bot API. This clien
 ```bash
 go get github.com/kifril-ltd/bot-api-client-gen
 ```
-1
+
 ## Usage
 
 ### Initializing the Client
